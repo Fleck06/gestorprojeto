@@ -16,7 +16,7 @@ public interface IRespositoryCategory {
     public boolean update();
     public boolean delete();
     public ArrayList findAll();
-    public Category findById(int id); // parametros ==> variaveis locais
+    public Category findById(); // parametros ==> variaveis locais
     /*
     public boolean save(){
         Customer cust = new Customer();

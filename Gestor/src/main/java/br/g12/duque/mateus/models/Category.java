@@ -66,6 +66,17 @@ public class Category {
         return description;
     }
 
+    @Override
+    public String toString() {
+        return this.id+"-"
+                +this.name
+                +"-"
+                +this.description
+                +"\n";
+    }
+    
+    
+
     public void setDescription(String description) {
         this.description = description;
     }

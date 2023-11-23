@@ -155,12 +155,11 @@ public class CategoryDao  implements IRespositoryCategory{
                 System.out.println("Categoria não encontrada");
                 return null;
             }
-        }
-        catch(SQLException ex){
+        }        catch(SQLException ex){
             System.out.println("Erro ao executar a consulta: "+ ex.getMessage());
             return null;
         }
         return category;
     }
-    
+     
 }
